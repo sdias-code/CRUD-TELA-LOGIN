@@ -1,0 +1,19 @@
+http://www.macoratti.net/15/07/mvc5_reg1.htm
+use Cadastro
+
+CREATE TABLE [dbo].[Usuarios](
+	[UsuarioId] [int] NOT NULL PRIMARY KEY IDENTITY,
+	[Nome] [nvarchar](100) NOT NULL,
+	[Email] [nvarchar](100) NOT NULL,
+	[Login] [nvarchar](50) NOT NULL,
+	[Senha] [nvarchar](50) NOT NULL
+	)
+	
+
+use Cadastro
+
+CREATE TABLE [dbo].[Usuarios](
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+   [NomeUsuario] NVARCHAR(50) NOT NULL,
+   [Senha] NVARCHAR(50) NOT NULL
+	)
